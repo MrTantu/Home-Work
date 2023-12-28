@@ -1,0 +1,106 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #081621;
+    font-family : arial;
+    text-color:white;
+    
+}
+
+#header input{
+    border-radius: 5px;
+    height: 15px;
+    padding: 20px 5px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu i{
+    color: red;
+    padding: 0px 10px;
+}
+#menu li{
+    display: block;
+    list-style: none;
+    padding: 2px 10px;
+    color: red;
+}
+
+#menu li a{
+   
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+
+
+}
+#menu li small{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 40px;
+    color: gray;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background:whitesmoke;
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0);
+
+}
+#navbar li{
+    list-style: none;
+    padding: 10px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: arial;
+    color:black;
+    display: block;
+    background: size 100%;;
+}
+#configuration{
+    display: inline;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+#configuration h1{
+    color : #3749bb;
+    font-size: medium;
+    font-family: arial;
+}
+#configuration h2{
+    font-size: 15px;
+}
+#configuration h3{
+    color: #081621;
+}
+#configuration a{
+    color: #e5330b;
+}
+#head{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Resolution{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    width: 105%;
+    padding: 10px 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+#list{
+    color:gray;
+}
